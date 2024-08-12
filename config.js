@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("18768375254")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
@@ -15,32 +15,32 @@ global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
   OPENAI_API_KEY:process.env.OPENAI_API_KEY || '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',
-  botname: process.env.BOT_NAME || 'PRABATH-MD',
+  botname: process.env.BOT_NAME || 'lonlyzak',
   dl_limit: process.env.DL_SIZE || '300',
   art: process.env.AUTO_RESTART || 'true',
-  sudo: process.env.SUDO || '94762280384',
+  sudo: process.env.SUDO || '18768375254',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
+  alivemsj: process.env.ALIVE_MSJ || '*POWERD BY LoNlyZak* 🎊',
+  ownername:process.env.OWNER_NAME || 'lonlyzak',
+  sessionName: process.env.SESSION_ID || 'PRABATH-MD~XSoh3DiC#dPzF9d6Kan3CIv8yjeF2o92b2o9SH5Ba6-Tko_aW1l0',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split(";")[1] || 'lonlyzak',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'fuck,huth,fucking,huththa,huththo,hukanna,fucked,pakaya,pako,ponnaya,ponnayo,kariya,kariyo,huththaa,hutta',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
-  readmessage: process.env.READ_MESSAGE || true,
+  readmessage: process.env.READ_MESSAGE || 'false',
   HANDLERS: process.env.PREFIX || ['.'],
-  warncount : process.env.WARN_COUNT || 3,
+  warncount : process.env.WARN_COUNT || 5,
   disablepm: process.env.DISABLE_PM || "flase",
-  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
+  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'falsw',
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
-  antilinkaction: process.env.ANTILINK_ACTION || 'remove',
+  antilinkaction: process.env.ANTILINK_ACTION || 'warn and delete',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'put your herokuapp name',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || 'put your heroku_api_key',
   BRANCH: 'main',
-  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
+  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || 'ypree mi deh yuh eno',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.5.0.0' : process.env.VERSION,
   LANG: process.env.THEME|| 'PRABATH-MD',
